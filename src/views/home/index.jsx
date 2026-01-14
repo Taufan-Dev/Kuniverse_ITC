@@ -1,4 +1,4 @@
-import HeroSection from "../../sections/home/heroSection";
+import HeroSection from "../../sections/home/hero/heroSection";
 
 function homeView() {
   return (
