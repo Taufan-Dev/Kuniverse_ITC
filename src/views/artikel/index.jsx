@@ -1,11 +1,11 @@
-const umkm = () => {
+const artikel = () => {
   return (
     <div className="min-h-screen pt-40 text-center">
       <h1 className="text-4xl font-serif text-prestige-gold">
-        umkm Kuningan
+        a
       </h1>
     </div>
   );
 };
 
-export default umkm;
+export default artikel;
