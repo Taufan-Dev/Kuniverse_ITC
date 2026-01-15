@@ -13,7 +13,7 @@ const AboutSection = () => {
               <h3 class=" font-extralight text-md lg:text-xl font-serif tracking-widest text-prestige-gold uppercase">
                 KuniVerse
               </h3>
-              <h2 class="text-lg font-medium ">Layanan</h2>
+              <h2 class="text-lg font-medium ">Tentang</h2>
             </div>
             <hr class="border-3 border-prestige-gold w-9 md:w-10 lg:w-16" />
           </div>
