@@ -27,24 +27,25 @@ const AboutSection = () => {
           </p>
         </div>
       </div>
-      <div class="hidden md:grid grid-cols-3 col-span-3 gap-2">
-        <div className="hidden md:grid grid-cols-3 col-span-3 gap-2">
+      <div class="hidden md:grid grid-cols-3 col-span-3 gap-2"> 
           <Card
             image="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/0896b65a-6d1e-4583-b60c-573359528121_Go-Biz_20220218_132132.jpeg"
             title="Kuliner Khas"
+            to="/kuliner"
           />
 
           <Card
             image="https://i.pinimg.com/736x/14/ad/31/14ad3171038b99261210a9fbe6785d41.jpg"
             title="Wisata Kuningan"
+            to="/wisata"
           />
 
           <Card
             image="https://pdbifiles.nos.jkt-1.neo.id/files/2018/08/05/oskm18_sappk_adriel_595839a1be7662943bad20c349ee8fa2ac09666f.jpg"
             title="UMKM Lokal"
+            to="/umkm"
           />
         </div>
-      </div>
     </section>
   );
 };
