@@ -6,6 +6,7 @@ import Kuliner from "./views/kuliner";
 import Umkm from "./views/umkm";
 import Artikel from "./views/artikel";
 import Home from "./views/home";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Route path="/umkm" element={<Umkm />} />
         <Route path="/artikel" element={<Artikel />} />
       </Routes>
+
+      <Footer />
     </BrowserRouter>
   );
 }
