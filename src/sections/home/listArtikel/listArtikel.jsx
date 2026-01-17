@@ -29,13 +29,15 @@ const ListArtikel = () => {
       id: 4,
       title: "Rekomendasi Tempat Healing di Kuningan",
       category: "Wisata",
-      image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+      image:
+        "https://pdbifiles.nos.jkt-1.neo.id/files/2018/08/05/oskm18_sappk_adriel_595839a1be7662943bad20c349ee8fa2ac09666f.jpg",
     },
     {
       id: 5,
       title: "Event Budaya Kuningan yang Wajib Dikunjungi",
       category: "Event",
-      image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+      image:
+        "https://pdbifiles.nos.jkt-1.neo.id/files/2018/08/05/oskm18_sappk_adriel_595839a1be7662943bad20c349ee8fa2ac09666f.jpg",
     },
   ];
 
