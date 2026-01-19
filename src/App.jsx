@@ -12,6 +12,7 @@ import Artikel from "./views/artikel";
 import Home from "./views/home";
 import DetailWisata from "./sections/wisata/detailWisata/detailWisata";
 import ArticleDetailPage from "./views/artikel/detail";
+import KulinerDetailPage from "./sections/kuliner/kulinerDetail";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
 
         {/* detail */}
         <Route path="/wisata/detail" element={<DetailWisata />} />
+        <Route path="/kuliner/detail" element={<KulinerDetailPage />} />
         <Route path="/artikel/detail" element={<ArticleDetailPage />} />
       </Routes>
 
