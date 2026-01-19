@@ -10,6 +10,7 @@ import Kuliner from "./views/kuliner";
 import Umkm from "./views/umkm";
 import Artikel from "./views/artikel";
 import Home from "./views/home";
+import Profile from "./views/profile";
 import DetailWisata from "./sections/wisata/detailWisata/detailWisata";
 import ArticleDetailPage from "./views/artikel/detail";
 import KulinerDetailPage from "./sections/kuliner/kulinerDetail";
@@ -28,6 +29,7 @@ function App() {
         <Route path="/kuliner" element={<Kuliner />} />
         <Route path="/umkm" element={<Umkm />} />
         <Route path="/artikel" element={<Artikel />} />
+        <Route path="/profile" element={<Profile />} />
 
         {/* detail */}
         <Route path="/wisata/detail" element={<DetailWisata />} />
