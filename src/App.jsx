@@ -7,6 +7,8 @@ import Umkm from "./views/umkm";
 import Artikel from "./views/artikel";
 import Home from "./views/home";
 import Footer from "./components/footer/footer";
+import Login from "./views/auth/Login";
+import Register from "./views/auth/Register";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path="/kuliner" element={<Kuliner />} />
         <Route path="/umkm" element={<Umkm />} />
         <Route path="/artikel" element={<Artikel />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
 
       <Footer />
